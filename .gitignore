@@ -1,0 +1,141 @@
+# Django/Python ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django project
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+*.sqlite3
+*.env
+.env.*
+
+# Django static files
+staticfiles/
+media/
+
+# Django local settings
+local_settings.py
+.env
+
+# Ignore Heroku-specific files
+venv/
+venv.bak/
+pip-log.txt
+coverage/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore the compiled static files in Django
+/staticfiles/
+/media/
+/static/
+
+# Ignore the deployment directory in Django
+/deploy/
+
+# Node.js ignores (for React/Next.js frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+dist/
+build/
+.cache/
+.next/
+out/
+.DS_Store
+
+# React build files
+build/
+*.map
+
+# Ignore environment variable files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Vercel deployment files
+.vercel/
+.now/
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore misc files
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# MacOS specific ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Visual Studio Code
+.vscode/
+
+# Local development logs
+*.log
+
+# Vercel
+.vercel
